@@ -1,0 +1,75 @@
+$light-text: #fff;
+$dark-text: #000;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto;
+	h1 {
+		font-size: 50px;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 40px;
+		font-weight: 400;
+	}
+	
+	h3 {
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	h4 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	p {
+		font-weight: 300;
+	}
+
+	nav {
+		ul {
+			list-style: none;
+			a {
+				li {
+					display: inline-block;
+					margin-right: 10px;
+					font-weight: 300;
+					font-size: 0.9em;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+				
+			}
+		}
+	}
+	.right {
+		float: right;
+	}
+	.light {
+		color: $light-text;
+		&:visited {
+			text-decoration: none;
+			color: $light-text;
+		}
+	}
+}
+
+.full-width {
+	width: 100%;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}

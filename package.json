@@ -1,0 +1,21 @@
+{
+  "name": "dreamscape-electrical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin Adams",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.1"
+  },
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "jquery": "^2.1.4"
+  }
+}
