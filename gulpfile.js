@@ -34,7 +34,8 @@ gulp.task('watch-templates', function() {
 });
 
 var sassSourceFiles = [
-    'source/sass/main.scss'
+    'source/sass/main.scss',
+    'node_modules/animate.css/animate.css'
 ];
 
 gulp.task('sass', function() {
